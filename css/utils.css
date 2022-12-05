@@ -1,7 +1,6 @@
 /* Utils */
 
 .container {
-	max-width: 1200px;
 	margin: 0 auto;
 }
 
@@ -9,4 +8,16 @@
 	content: '';
 	clear: both;
 	display: table;
+}
+
+.ds-flex, 
+header,
+main,
+footer {
+	display: flex;
+	flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
 }
