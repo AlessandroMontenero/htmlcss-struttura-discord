@@ -1,3 +1,5 @@
+/* Header */
+
 header {
     min-height: 470px;
     background-color: rgb(21, 0, 139);
@@ -32,4 +34,53 @@ header > .block {
     height: 300px;
     background: rgb(234, 125, 239);
     margin: auto;
+    border-style: dashed;
+    border-color: black;
+    border-width: 2px;
+}
+
+/* Main */
+
+main > section {
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+section:nth-of-type(even) {
+    background-color: rgb(211, 211, 211) ;
+}
+
+.container {
+    height: 400px;
+    width: 80%;
+    margin: auto;
+}
+
+.container > .block {
+    border-style: dashed;
+    border-color: black;
+    border-width: 2px;
+    height: 100%;
+}
+
+.blue {
+    background-color: rgb(65, 141, 254);
+    width: 65%;
+}
+
+.salmon {
+    background-color: rgb(251, 191, 204);
+    width: 35%;
+}
+
+section:last-of-type > .container {
+    border-style: dashed;
+    border-color: black;
+    border-width: 2px;
+    height: 800px;
+    width: 80%;
+    background-color: rgb(46, 140, 32);
+    margin: 30px;
 }
